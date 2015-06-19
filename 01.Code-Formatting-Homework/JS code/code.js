@@ -4,8 +4,8 @@ var appName = navigator.appName,
     txt = "",
     pX = 0,
     pY = 0,
-	theLayer,
-	args;
+    theLayer,
+    args;
 
 if ((navigator.userAgent.indexOf('MSIE 5') > 0) || (navigator.userAgent.indexOf('MSIE 6')) > 0) {
     addScroll = true;
