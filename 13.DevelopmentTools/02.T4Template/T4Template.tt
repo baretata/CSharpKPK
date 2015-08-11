@@ -1,0 +1,22 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ output extension=".txt" #>
+
+<#for (int i = 1; i <= 10; i++)
+{
+	PrintEvenOrOdd(i);
+}#>
+
+<#+void PrintEvenOrOdd(int number)
+{
+	string result;
+
+	if (number % 2 == 0)
+	{
+		WriteLine("{0} -> Even", number);
+	}
+	else 
+	{
+		WriteLine("{0} -> Odd", number);
+	}
+}#>
