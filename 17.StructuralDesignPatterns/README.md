@@ -160,7 +160,7 @@ Singletons are often preferred to global variables because they do not pollute t
 using System;
 using System.Collections;
  
-namespace DoFactory.GangOfFour.Flyweight.Structural
+namespace Flyweight.Structural
 {
   class MainApp
   {
@@ -266,7 +266,7 @@ namespace DoFactory.GangOfFour.Flyweight.Structural
 ~~~c#
 using System;
  
-namespace DoFactory.GangOfFour.Bridge.Structural
+namespace Bridge.Structural
 {
   class MainApp
   {
@@ -350,4 +350,4 @@ namespace DoFactory.GangOfFour.Bridge.Structural
 ~~~
 
 ### UML Diagram
-![Singleton Pattern](http://www.dofactory.com/images/diagrams/net/bridge.gif "Singleton Design Pattern UML Diagram")
+![Builder Pattern](http://www.dofactory.com/images/diagrams/net/bridge.gif "Builder Design Pattern UML Diagram")
