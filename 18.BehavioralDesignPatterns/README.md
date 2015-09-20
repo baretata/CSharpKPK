@@ -433,4 +433,4 @@ namespace Specification.Behavioral
 ~~~
 
 ### UML Diagram
-![Specification Pattern](https://upload.wikimedia.org/wikipedia/commons/8/8b/Specification_UML_v2.png "Specification Design Pattern UML Diagram")
+![Specification Pattern](https://morshedanwar.files.wordpress.com/2012/11/specification_uml_v2_thumb1.png?w=596&h=357 "Specification Design Pattern UML Diagram")
